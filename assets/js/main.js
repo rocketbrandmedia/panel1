@@ -17,7 +17,7 @@ const copyToClipboard = str => {
   el.select();
   document.execCommand('copy');
   document.body.removeChild(el);
-  makeToast('Panoya kopyalandı')
+  makeToast('Copied to clipboard')
 };
 
 var toastTime;
